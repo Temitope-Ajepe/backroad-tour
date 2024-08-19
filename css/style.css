@@ -217,6 +217,7 @@ Navbar
     border: none;
     font-size: 1.5rem;
     margin-top: -1rem;
+    margin-right: 3rem;
     color: var(--clr-primary-1);
     cursor: pointer;
     transition: var(--transition);
@@ -553,14 +554,14 @@ Contact
 }
 .contact-form{
     display: flex;
-    max-width: 28rem;
+    max-width: 23rem;
 }
 .form-control{
     flex: 1 1 auto;
     color: var(--clr-grey-5);
 }
 .form-control, .btn-submit{
-    padding: 0.370rem 0.70rem;
+    padding: 0.35rem 0.65rem;
     line-height: 1.5;
     letter-spacing: var(--spacing);
     background: var(--clr-white);
@@ -568,7 +569,7 @@ Contact
     font-weight: 300;
     text-transform: capitalize;
     border: transparent;
-    margin: 0.5rem 0.5rem 0.5rem 0;
+    margin: 0 0.5rem 0 0;
 }
 .form-control::-webkit-input-placeholder{
     color: inherit;
